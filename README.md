@@ -1,4 +1,4 @@
-2. # RESTful API Activity - John Harvey Revilloza 
+2. # RESTful API Activity - John Harvey Revilloza
 3. ## Best Practices Implementation
 4. **1. Environment Variables:**
 5. - Why did we put `BASE_URI` in `.env` instead of hardcoding it?
@@ -13,4 +13,7 @@
 13. - Answer: Using the correct status code like 404 makes error handling better and more accurate. It helps the client understand what went wrong and allows the system to respond properly.
 14.
 15. **4. Testing:**
-16. - (Paste a screenshot of a successful GET request here)
+16. "Why did I choose to Embed the [Review/Tag/Log]?"
+    I choose to embed the review tag because it belongs specifically to that specific dish only.
+    o "Why did I choose to Reference the [Chef/User/Guest]?"
+    I choose to reerence the chef because chefs exist even if they are not around and multiple dishes can be made by one chef.
